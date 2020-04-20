@@ -8,6 +8,10 @@ int main(){
 	scanf("%i",&tabla);
 	
 	printf("\n\nLa tabla del %i es:\n",tabla);
+	for(i = 1; i<=10; i++){
+		valor = tabla*i;
+		printf("%i\n",valor);
+	}
 	
 	return 0;
 }
